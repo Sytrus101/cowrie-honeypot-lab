@@ -1,0 +1,7 @@
+*.log
+*.pcap
+*.key
+real_logs/
+captures/
+__pycache__/
+*.pyc

